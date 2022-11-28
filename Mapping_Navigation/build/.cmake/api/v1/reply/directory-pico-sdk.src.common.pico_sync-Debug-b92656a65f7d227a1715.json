@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/common/pico_sync",
+		"source" : "/Users/muhdismaelosman/pico/pico-sdk/src/common/pico_sync"
+	}
+}
