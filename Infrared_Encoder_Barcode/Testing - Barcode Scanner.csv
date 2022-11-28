@@ -1,0 +1,16 @@
+,,,,,,,
+Causes,,Values,C1,C2,C3,C4,
+C1,Car goes in a straight line on barcode,"Y,N",Y,N,N,N,
+C2,Car zigzags on barcode,"Y,N",N,Y,N,N,
+C3,Car stops on barcode,"Y,N",N,N,Y,N,
+C4,Car goes off course on barcode,"Y,N",N,N,N,Y,
+Effects,,,,,,,
+E1,Able to output correct character from barcode,,X,X,,,
+E2,Unable to output correct character from barcode,,,,X,X,
+,,,,,,,
+,,,,,,,
+Test Scenario,Test Case,Preconditions,Test Steps,Test data,Expect Result,Actual Result,Pass/ fail
+Check Barcode Scanner Functionality,Check response on travelling straight on barcode,Car is infront of barcode,1. Turn on raspberry pico      2. Push car straight on barcode               3. Check for output,1. Barcode         2. Traversal on barcode,Able to output correct character from barcode,Unable to output correct character from barcode,fail
+Check Barcode Scanner Functionality,Check response when car zigzags on barcode,Car is infront of barcode,1. Turn on raspberry pico      2. Push car zigzag on barcode               3. Check for output,1. Barcode         2. Traversal on barcode,Able to output correct character from barcode,Unable to output correct character from barcode,fail
+Check Barcode Scanner Functionality,Check response when car zigzags on barcode,Car is infront of barcode,1. Turn on raspberry pico      2. Push car straight on barcode and then stop              3. Check for output,1. Barcode         2. Traversal on barcode,Unable to output correct character from barcode,Unable to output correct character from barcode,fail
+Check Barcode Scanner Functionality,Check response when car travels off the barcode,Car is infront of barcode,1. Turn on raspberry pico      2. Push car on the barcode then off halfway         3. Check for output,1. Barcode         2. Traversal on barcode,Unable to output correct character from barcode,Unable to output correct character from barcode,fail
