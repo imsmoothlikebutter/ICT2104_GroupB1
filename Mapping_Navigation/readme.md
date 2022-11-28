@@ -16,3 +16,7 @@
 - Build
 - Copy MappingDemo.uf2 from the build folder into the Pico(boot mode)
 ## Other versions such as Adjacency Lists or Adj Matrix with Navigation has to be done on PC
+
+## Testing done: Blackbox testing
+- Can be found under 'testing' folder
+- BFS and DFS blackbox testing
