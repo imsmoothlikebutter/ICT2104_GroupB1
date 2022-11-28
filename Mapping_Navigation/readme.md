@@ -9,5 +9,5 @@
 ![image](https://user-images.githubusercontent.com/44394845/204291937-9dbc1889-ec88-4fc2-9faa-657ad80c4de3.png)
 
 
-##AdjacencyMatrixMap.c can only be compiled to Raspberry Pico
-##Other versions such as Adjacency Lists or Adj Matrix with Navigation has to be done on PC
+## AdjacencyMatrixMap.c can only be compiled to Raspberry Pico
+## Other versions such as Adjacency Lists or Adj Matrix with Navigation has to be done on PC
